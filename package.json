@@ -1,0 +1,10 @@
+{
+  "name": "astroo-api-self-hosted",
+  "version": "1.0.0",
+  "description": "Génère chaque jour un horoscope FR (quotidien/hebdo/mensuel) pour les 12 signes, publié en JSON statique sur GitHub Pages. Remplacement auto-hébergé et gratuit de l'ancienne API kayoo123/astroo-api (fermée).",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "generate": "node scripts/generate-horoscopes.mjs"
+  }
+}
